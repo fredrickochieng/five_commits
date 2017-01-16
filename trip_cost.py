@@ -2,7 +2,7 @@
 def hotel_cost(nights):
     Accomodation=140*nights
     return  Accomodation
-    print "Your Accomodation in %s will be :" +  Accomodation %s (city)
+    print "Your Accomodation in %s will be :" +  Accomodation % (city)
 
 def plane_ride_cost(city):
     if city=="Charlotte":
